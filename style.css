@@ -159,7 +159,7 @@ h2{
     color: red;
 }
 
-.nav {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -168,28 +168,28 @@ h2{
     padding-right: 10%;
 }
 
-.nav, h3 {
+h3 {
     color: white;
     font-size: 28px;
 }
 
-.nav, span {
+span {
     color: red;
 }
 
-.nav, .ul, .ol {
+.ul .ol {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
-.nav, .ul, .ol, .a {
+.ul .ol .a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.nav, .ul, .ol, .a:hover {
+.ul .ol .a:hover {
     color: orangered;
     transition: 0.5s;
 }
