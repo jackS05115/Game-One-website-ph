@@ -168,28 +168,28 @@ h2{
     padding-right: 10%;
 }
 
-h3 {
+.nav, h3 {
     color: white;
     font-size: 28px;
 }
 
-span {
+.nav, span {
     color: red;
 }
 
-.nav .ul .ol {
+.nav, .ul, .ol {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
-.nav .ul .ol .a {
+.nav, .ul, .ol, .a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.nav .ul .ol .a:hover {
+.nav, .ul, .ol, .a:hover {
     color: orangered;
     transition: 0.5s;
 }
@@ -289,27 +289,3 @@ h3 {
     font-family: serif;
     font-size: 15px;
 }
-
-.v1 {
-    float: right;
-}
-
-.v2 {
-    float: center;
-}
-
-.v3 {
-    float: left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
