@@ -127,39 +127,38 @@ h2{
     background-color: white;
 }
 
-.ul1 {
+.i .ul1 {
     font-family: Tahoma;
     font-size: 25px; 
     list-style-type: circle;
 }
 
-.kl {
+.i .kl {
     font-family: cursive;
 }
 
-.ol2 {
+.i .ol2 {
     font-family: Impact;
     font-size: 25px; 
     list-style-type: upper-roman;
 }
 
-.dl1 {
+.i .dl1 {
     font-family: Courier New;
     font-size: 30px;
 }
 
-dt {
+.i dt {
     color: yellow;
     -webkit-text-stroke: 1px black;
     font-family: serif;
 }
 
-.li1 {
+.i .li1 {
     text-decoration: underline;
     color: red;
 }
 
-}
 .nav {
     display: flex;
     align-items: center;
@@ -290,3 +289,33 @@ h3 {
     font-family: serif;
     font-size: 15px;
 }
+
+.v1 {
+    width: 420;
+    height: 315;
+    float: right;
+}
+
+.v2 {
+    width: 420;
+    height: 315;
+    float: center;
+}
+
+.v3 {
+    width: 420;
+    height: 315;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
