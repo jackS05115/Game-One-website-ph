@@ -177,19 +177,19 @@ span {
     color: red;
 }
 
-.nav .ul, .ol {
+.nav .ul .ol {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
-.nav .ul, .ol, .a {
+.nav .ul .ol .a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.nav .ul, .ol, .a:hover {
+.nav .ul .ol .a:hover {
     color: orangered;
     transition: 0.5s;
 }
